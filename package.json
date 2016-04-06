@@ -1,5 +1,5 @@
 {
-  "name": "react-eslint",
+  "name": "eslint-config-airbnb-yhc",
   "version": "1.0.0",
   "description": "less opinionated airbnb config",
   "main": "index.js",
