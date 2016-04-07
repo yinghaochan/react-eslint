@@ -26,4 +26,8 @@ module.exports = {
     
     // allows var for backwards compatibility
     'no-var'              : 'off',
+
+    // allows anon functions
+    'func-names'          : 'off',
+ 
 }
