@@ -12,5 +12,5 @@
 
 ## Notes ##
 
--Defaults to 4 space indents     `'indent' : ['error', 4]`
+*Defaults to 4 space indents     `'indent' : ['error', 4]`
  

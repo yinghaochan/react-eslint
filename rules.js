@@ -7,7 +7,7 @@ module.exports = {
     
     // Errs if you need to use quotes, but ignores other cases.
     'quote-props'         : ['error', 'as-needed', { 
-        'keywords': false, 
+        'keywords' : false, 
         unnecessary: false, 
     }],
     
@@ -15,12 +15,15 @@ module.exports = {
     // finer grained control gets weird
     'key-spacing'         : ['off', {
         beforeColon: false, 
-        afterColon: true, 
-        mode: 'minimum',
+        afterColon : true, 
+        mode       : 'minimum',
     }],
-
-    'no-trailing-spaces': 'off',
+    
+    'no-trailing-spaces'  : 'off',
     
     // generous object formatting {sometimes works best}
     'object-curly-spacing': 'off',
+    
+    // allows var for backwards compatibility
+    'no-var'              : 'off',
 }
