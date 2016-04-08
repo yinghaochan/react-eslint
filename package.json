@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-airbnb-yhc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "less opinionated airbnb config",
   "main": "index.js",
   "dependencies": {
