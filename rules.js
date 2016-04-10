@@ -36,7 +36,11 @@ module.exports = {
     'prefer-template'           : 'off',
 
     // allows '///'
-    'spaced-comment'            : ['warn', {markers: ['/']}],
+    'spaced-comment'            : ['warn', 'always', {exceptions: ['/']}],
+
+    // allows more empty lines
+    'no-multiple-empty-lines': ['warn', {'max': 4}],
+
 
 
     ////////////////////////
@@ -51,7 +55,6 @@ module.exports = {
 
     // warn for prop-types
     'react/prop-types'          : 'warn',
-
 
 
 }
